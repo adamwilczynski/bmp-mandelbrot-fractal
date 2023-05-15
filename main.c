@@ -3,9 +3,6 @@
 #include <math.h>
 #include <stdlib.h>
 
-// https://stackoverflow.com/questions/2654480/writing-bmp-image-in-pure-c-c-without-other-libraries
-// https://stackoverflow.com/questions/6418807/how-to-work-with-complex-numbers-in-c
-
 const int BYTES_PER_PIXEL = 3; /// red, green, & blue
 const int FILE_HEADER_SIZE = 14;
 const int INFO_HEADER_SIZE = 40;
